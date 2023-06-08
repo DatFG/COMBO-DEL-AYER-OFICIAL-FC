@@ -48,7 +48,7 @@ body{
     width: 100%;
     text-align: center;
     margin-left: 1%;
-    background: linear-gradient(to right,blue,yellow,white);
+    background: linear-gradient(to right,blue,rgb(243, 243, 94),white);
 }
 .patrocinadores{
     width: 7%;
