@@ -1,0 +1,193 @@
+body{
+    background: linear-gradient(rgb(254, 254, 255),rgb(246, 246, 159),rgb(3, 5, 64));
+}
+.banner{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: -webkit-inline-box;
+    padding: 2%;
+    background: url(images/fondo.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size:cover;
+}
+.logo{
+    width: 150px;
+}
+.marca{
+    text-align: center;
+    font-size: 5em;
+    font-family: rancho;
+    padding-left: 15%;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-top: 2%;
+    color: khaki;
+}
+.seguidores{
+    display: block;
+    width: 4%;
+    margin-left: 25%;
+    padding-top: 3%;
+}
+.redes{
+        width: 2em;
+}
+.slogan{
+    width: 100%;
+    text-align: center;
+    margin-left: 1%;
+    padding: 1%;
+    font-size: 2em;
+    font-family: rancho;
+    color: rgb(243, 239, 118);
+    background-color: rgb(5, 5, 51);
+}
+.sponsors{
+    width: 100%;
+    text-align: center;
+    margin-left: 1%;
+    background: linear-gradient(to right,blue,rgb(243, 243, 94),white);
+}
+.patrocinadores{
+    width: 7%;
+    height: 7%;
+    margin-right: 5em;
+    box-shadow: 10px 5px 5px black;
+    vertical-align: middle;
+}
+.patrocinadores:hover{
+    transform: scale(1.2);
+}
+.campaña{
+    font-family: montserrat;
+    font-size: 2em;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 1em;
+    font-weight: bold;
+}
+.news{
+    width: 100%;
+    margin-left: 2%;
+    text-align: center;
+}
+.relato{
+    width: 100%;
+    font-size: 1.3em;
+    color:rgb(5, 1, 19);
+    font-family: montserrat;
+    line-height: 1.7em;
+    text-align:justify;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.noticia{
+    width: 30%;
+    float:right;
+    padding-left: 1.3em;
+}
+.franja{
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 2%;
+    text-align: center;
+}
+.galery{
+    width: 23%;
+    margin-left: 1%;
+    box-shadow: 10px 5px 5px black;
+}
+.galery:hover{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
+.marcha{
+    width: 100%;
+    margin-left: 3%;
+    text-align: center;
+}
+.tabla{
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+}
+.fecha{
+    width: 400px;
+    height: 400px;
+    padding: 2%;
+}
+.video{
+    width:98%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+.nosotros{
+    text-align: center;
+    font-family: montserrat;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-weight: bold;
+}
+.mostrar{
+    text-align: center;
+    width: 100%;
+}
+.equipo{
+    width: 45%;
+    float:left;
+    margin-right: 4%;
+    margin-left: 3%;
+    box-shadow: 10px 5px 5px black;
+}
+.historia{
+    width: 100%;
+    font-size: 1.3em;
+    color:rgb(242, 231, 130);
+    font-family: montserrat;
+    line-height: 1.7em;
+    text-align:justify;
+    margin-left: 6%;
+    padding-right: 2%;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    font-family:sans-serif;
+    font-size: 1em;
+    color: aliceblue;
+    background-color: rgb(2, 2, 28);
+}
+@media screen and (max-width:480px){
+    .banner{
+        width: 100%;
+        display: block;
+    }
+    .logo{
+    width: 5em;
+    position: absolute;
+    }
+    .marca{
+        width: 70%;
+        text-align: center;
+        font-size: 3em;
+        margin-left: 5%;
+    }
+    .seguidores{
+    display:block;
+    }
+    .redes{
+        width: 1em;
+    }
+    .slogan{
+        width: 100%;
+    }
+    .sponsors{
+        width: 100%;
+    }
+    }
