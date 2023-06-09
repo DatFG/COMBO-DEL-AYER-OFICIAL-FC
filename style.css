@@ -164,30 +164,30 @@ footer{
     background-color: rgb(2, 2, 28);
 }
 @media screen and (max-width:480px){
-.banner{
-    width: 100%;
-    display: block;
-}
-.logo{
-width: 5em;
-position: absolute;
-}
-.marca{
-    width: 70%;
-    text-align: center;
-    font-size: 3em;
-    margin-left: 5%;
-}
-.seguidores{
-display:block;
-}
-.redes{
-    width: 1em;
-}
-.slogan{
-    width: 100%;
-}
-.sponsors{
-    width: 100%;
-}
-}
+    .banner{
+        width: 100%;
+        display: block;
+    }
+    .logo{
+    width: 5em;
+    position: absolute;
+    }
+    .marca{
+        width: 70%;
+        text-align: center;
+        font-size: 3em;
+        margin-left: 5%;
+    }
+    .seguidores{
+    display:block;
+    }
+    .redes{
+        width: 1em;
+    }
+    .slogan{
+        width: 100%;
+    }
+    .sponsors{
+        width: 100%;
+    }
+    }
