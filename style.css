@@ -95,6 +95,7 @@ body{
     text-align: center;
 }
 .galery{
+    display: inline-flexbox;
     text-align: center;
     width: 23%;
     margin-left: 1%;
