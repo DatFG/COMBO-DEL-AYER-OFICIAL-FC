@@ -99,9 +99,8 @@ body{
     text-align: center;
 }
 .galery{
-    display: inline-flexbox;
     text-align: center;
-    width: 23%;
+    width: 30%;
     margin-left: 1%;
     box-shadow: 10px 5px 5px black;
 }
@@ -174,7 +173,7 @@ footer{
 @media screen and (max-width:480px){
     .banner{
         width: 100%;
-        display: block;
+        display: inline-block;
     }
     .logo{
     width: 5em;
